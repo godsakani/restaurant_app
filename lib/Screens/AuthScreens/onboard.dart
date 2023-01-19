@@ -12,8 +12,8 @@ class Onboard extends StatefulWidget {
 class _OnboardState extends State<Onboard> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return const Scaffold(
+      backgroundColor: Colors.white,
     );
   }
 }
