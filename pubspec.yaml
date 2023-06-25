@@ -29,6 +29,8 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/icons/splash_logo.png
+    - assets/icons/mainLogo.png
     - assets/icons/
 
   # fonts:
