@@ -8,7 +8,7 @@ import '../presentation/main/innerScreens/details.dart';
 import '../presentation/main/mainView.dart';
 import '../presentation/onboarding/onboardingView.dart';
 import '../presentation/splash/splash.dart';
-import '../styles/strings_manager.dart';
+import 'strings_manager.dart';
 
 class Routes {
   static const String splashRoute = '/';
