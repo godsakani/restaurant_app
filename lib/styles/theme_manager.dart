@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'color_manager.dart';
 import 'font_manager.dart';
 import 'styles_manager.dart';
-import 'values_manager.dart';
+import '../utils/values_manager.dart';
 
 ThemeData getApplicationTheme() {
   return ThemeData(
@@ -53,6 +53,8 @@ ThemeData getApplicationTheme() {
           color: ColorManager.blackColor, fontSize: FontSize.s16),
       titleMedium: getMediumStyle(
           color: ColorManager.greyWhiteColor, fontSize: FontSize.s14),
+          titleSmall: getMediumStyle(
+          color: ColorManager.primaryColor, fontSize: FontSize.s14),
       bodyMedium: getRegularStyle(color: ColorManager.greyColor),
       bodySmall: getRegularStyle(color: ColorManager.greyColor),
     ),

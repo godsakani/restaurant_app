@@ -1,7 +1,7 @@
 name: u_cook
 description: A new Flutter project.
 
-publish_to: 'none' 
+publish_to: "none"
 version: 1.0.0+1
 
 environment:
@@ -17,6 +17,7 @@ dependencies:
   shared_preferences: ^2.0.16
   get: ^4.6.5
   http: ^0.13.5
+  flutter_svg: ^2.0.5
 
 dev_dependencies:
   flutter_test:
@@ -24,14 +25,13 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-
   uses-material-design: true
 
   assets:
     - assets/images/
     - assets/icons/splash_logo.png
     - assets/icons/mainLogo.png
-    - assets/icons/
+    - assets/icons/appicon/
 
   # fonts:
   #   - family: Schyler
